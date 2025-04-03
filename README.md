@@ -81,8 +81,10 @@ can send by postman, apidog or another client
 
 - Watching for the result
 
-The final Result will be like
+The final Result will be like in Foreground
 ![alt text](image-4.png)
+
+And in background when close the browser
 ![alt text](image-5.png)
 
 ---

@@ -32,11 +32,11 @@ app.post("/api/test", (req, res) => {
     .send(messagePayload)
     .then((res) => {
       console.log("Message sent successfully", res);
-      return res.status(200).json({ message: "Message sent successfully" });
+      return res.json({ message: "Message sent successfully" });
     })
     .catch((err) => {
       console.log("Error sending message", err);
-      return res.status(500).json({ error: "Error sending message" });
+      return res.json({ error: "Error sending message" });
     });
 });
 
